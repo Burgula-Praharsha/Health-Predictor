@@ -1,0 +1,8 @@
+numpy  # Numerical operations
+pandas  # Data manipulation
+scikit-learn  # Machine learning library
+seaborn  # Statistical data visualization
+matplotlib  # Data visualization
+streamlit  # Web app framework
+pickle  # Object serialization
+

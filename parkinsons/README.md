@@ -1,0 +1,48 @@
+# Parkinson's Disease Prediction using Machine Learning
+
+## Overview
+This project predicts the likelihood of Parkinson's disease based on medical input data. 
+It uses a **Random Forest** model and a **Streamlit** web interface for easy interaction.  
+Using this web app, users can input different medical parameters to check their Parkinson's disease risk.
+
+## Features
+✅ Simple and interactive web app  
+✅ Uses a trained **Random Forest** model for prediction  
+✅ Predicts Parkinson's disease risk for different new input values  
+
+## Dataset  
+The dataset contains features like:  
+- **MDVP:Fo(Hz), MDVP:Fhi(Hz), MDVP:Flo(Hz)** (Fundamental frequencies)  
+- **MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP** (Jitter features)  
+- **MDVP:Shimmer, MDVP:Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, MDVP:APQ, Shimmer:DDA** (Shimmer features)  
+- **NHR, HNR** (Noise-to-Harmonics and Harmonics-to-Noise Ratio)  
+- **RPDE, DFA, spread1, spread2, D2, PPE** (Nonlinear dynamical features)  
+
+## Model Used  
+**Random Forest** for classification  
+**Model Accuracy:**  
+- **Training Data Accuracy:** 100%  
+- **Test Data Accuracy:** 100%  
+
+### Confusion Matrix:
+```
+ [[30  0]
+ [ 0 29]]
+```
+
+## Usage  
+1️⃣ Open the web app.  
+2️⃣ Enter medical parameters.  
+3️⃣ Click "Predict" to check Parkinson's disease risk.  
+
+## Installation  
+1️⃣ Clone the repository.  
+2️⃣ Install dependencies:  
+```bash
+pip install -r requirements.txt
+```
+
+## Run the application  
+```bash
+streamlit run parkinsons_app.py
+```

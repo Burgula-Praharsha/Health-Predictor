@@ -1,0 +1,20 @@
+Timestamp: 2025-02-04 22:59:29
+Input Data: [3.0, 180.0, 80.0, 25.0, 150.0, 35.0, 0.5, 45.0]
+Prediction Result: The person is diabetic
+
+Timestamp: 2025-02-04 23:00:09
+Input Data: [0.0, 90.0, 70.0, 15.0, 90.0, 22.0, 0.1, 28.0]
+Prediction Result: The person is not diabetic
+
+Timestamp: 2025-02-04 23:02:06
+Input Data: [0.0, 137.0, 40.0, 35.0, 168.0, 43.1, 2.288, 33.0]
+Prediction Result: The person is diabetic
+
+Timestamp: 2025-02-04 23:03:11
+Input Data: [10.0, 115.0, 0.0, 0.0, 0.0, 35.3, 0.134, 29.0]
+Prediction Result: The person is diabetic
+
+Timestamp: 2025-02-04 23:04:24
+Input Data: [4.0, 110.0, 92.0, 0.0, 0.0, 37.6, 0.191, 30.0]
+Prediction Result: The person is not diabetic
+
