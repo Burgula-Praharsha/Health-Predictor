@@ -1,0 +1,25 @@
+Timestamp: 2025-02-08 14:49:16
+Input Data: [44.0, 1.0, 1.0, 120.0, 263.0, 0.0, 1.0, 173.0, 0.0, 0.0, 2.0, 0.0, 3.0]
+Prediction Result: The person has heart disease
+
+Timestamp: 2025-02-08 14:51:11
+Input Data: [67.0, 1.0, 0.0, 160.0, 286.0, 0.0, 0.0, 108.0, 1.0, 1.5, 1.0, 3.0, 6.0]
+Prediction Result: The person does not have heart disease
+
+Timestamp: 2025-02-08 14:53:25
+Input Data: [40.0, 1.0, 0.0, 110.0, 167.0, 0.0, 0.0, 114.0, 1.0, 2.0, 1.0, 0.0, 3.0]
+Prediction Result: The person does not have heart disease
+
+Timestamp: 2025-02-08 14:56:44
+Input Data: [56.0, 1.0, 1.0, 130.0, 221.0, 0.0, 0.0, 163.0, 0.0, 0.0, 2.0, 0.0, 7.0]
+Prediction Result: The person has heart disease
+
+Timestamp: 2025-02-08 14:58:32
+Input Data: [61.0, 1.0, 3.0, 134.0, 234.0, 0.0, 1.0, 145.0, 0.0, 2.6, 1.0, 2.0, 2.0]
+Prediction Result: The person does not have heart disease
+
+Timestamp: 2025-02-08 15:01:18
+Input Data: [42.0, 1.0, 0.0, 136.0, 315.0, 0.0, 1.0, 125.0, 1.0, 1.8, 1.0, 0.0, 3.0]
+Prediction Result: The person does not have heart disease
+
+
