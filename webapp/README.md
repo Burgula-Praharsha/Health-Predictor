@@ -25,7 +25,7 @@ All models are integrated with a **Streamlit** web app for easy interaction.
 
 ### 3. Parkinson's Disease Prediction
 - **Model:** Random Forest
-- **Accuracy:** 100% (Training), 100% (Test)
+- **Accuracy:** 100% (Training), 97.8% (Test)
 - **Features:** MDVP, Jitter, Shimmer, Harmonics-to-Noise Ratio and etc.
 
 ---
@@ -38,4 +38,4 @@ git clone https://github.com/your-username/disease-prediction.git
 cd disease-prediction
 
 ##Run the app
-streamlit run web_app.py
+streamlit run webapp.py
