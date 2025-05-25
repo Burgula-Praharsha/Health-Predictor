@@ -13,20 +13,20 @@ Using this web app, users can input different medical parameters to check their 
 ## Dataset  
 The dataset contains features like:  
 - **MDVP:Fo(Hz), MDVP:Fhi(Hz), MDVP:Flo(Hz)** (Fundamental frequencies)  
-- **MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP** (Jitter features)  
-- **MDVP:Shimmer, MDVP:Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5, MDVP:APQ, Shimmer:DDA** (Shimmer features)  
+- **MDVP:Jitter(%)** (Jitter features)  
+- **MDVP:Shimmer** (Shimmer features)  
 - **NHR, HNR** (Noise-to-Harmonics and Harmonics-to-Noise Ratio)  
-- **RPDE, DFA, spread1, spread2, D2, PPE** (Nonlinear dynamical features)  
+- **RPDE, spread1, spread2, D2** (Nonlinear dynamical features)  
 
 ## Model Used  
 **Random Forest** for classification  
 **Model Accuracy:**  
 - **Training Data Accuracy:** 100%  
-- **Test Data Accuracy:** 100%  
+- **Test Data Accuracy:** 97.8%
 
 ### Confusion Matrix:
 ```
- [[30  0]
+ [[29  1]
  [ 0 29]]
 ```
 
