@@ -26,7 +26,7 @@ This repository contains machine learning models for predicting three diseases b
    - **Algorithm**: Implemented using Random Forest Classifier.
    - **Accuracy**:
      - Training Data: 100%
-     - Test Data: 94.87%
+     - Test Data: 97.8%
 
 ## Requirements
 - Jupyter Notebook / VS code
